@@ -1,0 +1,31 @@
+table {
+    margin: auto;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    min-width: 75%;
+}
+
+div {
+    margin-top: 10%;
+}
+
+mat-form-field {
+    display: flex;
+    width: 20%;
+    margin: 0px auto;
+}
+
+mat-paginator {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.mat-row {
+    height: 50px;
+    color: brown;
+}
+
+.mat-cell {
+    text-align: center;
+}

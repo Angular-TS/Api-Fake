@@ -1,0 +1,13 @@
+<div class="container-card">
+  <mat-card class="card" [attr.aria-label]="participant.id">
+      <mat-card-header>
+        <mat-card-title style="color: brown;">Marathon Winner</mat-card-title>
+      </mat-card-header>
+      <mat-card-content><br>
+        <h4 aria-label="Name"><strong>Name: </strong>{{participant.firstName}} {{participant.lastName}}</h4>
+        <img aria-label="Photo URL" src="{{ participant.photoUrl }}">
+        <div aria-label="Center Name">Center Name: {{center.name}}</div>
+        <div aria-label="Record Time">Record Time: {{participant.recordTime}}</div>
+      </mat-card-content>
+  </mat-card>
+</div>
